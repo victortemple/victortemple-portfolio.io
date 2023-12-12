@@ -1,0 +1,12 @@
+@media(max-width: 425px){
+   
+
+    .col-con-main-content-col{
+        grid-template-columns: 1fr 1fr !important;
+        width: 98%;
+    }
+
+    .col-con-main-content-col{
+        width: 90%;
+    }
+}

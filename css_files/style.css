@@ -1,0 +1,54 @@
+body{
+    background-image: url(../img/me.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.txt h2{
+    font-size: 3.8rem;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.txt h2 strong,
+.txt h2 span{
+    font-size: 5.6rem;
+}
+
+.txt h2 strong{
+    color: #ffa500;
+}
+
+.chg-bg{
+    padding: 4px;background: #ffa500;
+    width: fit-content;
+    margin-bottom: 1.8rem;
+}
+
+.chg-bg,
+.txt p{
+    font-size: 1.8rem;
+}
+
+.txt{
+    width: 70rem;
+    position: fixed;
+    top: 30%;
+    left: 5%;
+}
+
+.home-btn:hover,
+.home-btn:active{
+    color: #ffa500;
+    background: transparent;
+    padding-left: 0;
+    text-decoration: underline;
+}

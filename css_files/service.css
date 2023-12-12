@@ -1,0 +1,30 @@
+body{
+    background: #c7c7c79f;
+    height: 100vh;
+}
+
+.col-con-main-content-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 98%;
+    margin: auto auto;
+    gap: 1.8rem;
+    row-gap: 4.4rem;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-content h3{
+    color: #ffa500;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+
+.main-content p{
+    font-size: 1.5rem;
+}
+
