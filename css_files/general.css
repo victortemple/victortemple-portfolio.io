@@ -315,7 +315,9 @@ footer{
         font-size: 32%;
     }
 
-
+    .col-con{
+        gap: 28rem !important;
+    }
 
     .col-con-main-content h2{
         margin: 0;
@@ -331,6 +333,10 @@ footer{
 
     .mq-vs{
         width: 100%;
+    }
+
+    footer{
+        margin-top: 3.2rem;
     }
 }
 

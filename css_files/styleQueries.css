@@ -45,14 +45,15 @@
         width: fit-content;
         margin-top: 20rem;
     }
+    body{
+        background-image: linear-gradient(to top, #ffa6006f, #00000060), url(../img/me.jpg);
+    }
 
 }
 
 @media(max-width: 375px){
    
-    body{
-        background-image: linear-gradient(to top, #ffa6006f, #00000060), url(../img/me.jpg);
-    }
+   
 
     .sidebar-menu-btn {
         left: 89%;

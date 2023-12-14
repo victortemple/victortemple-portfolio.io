@@ -2,8 +2,23 @@
    
 
     .col-con-main-content-col{
-        grid-template-columns: 1fr 1fr !important;
-        width: 98%;
+        grid-template-columns: 1fr !important;
+        width: 90%;
+        align-items: center;
+        margin-top: 11rem;
+    }
+
+    .main-content h3{
+        font-size: 2.4rem;
+    }
+
+    .main-content p{
+        font-size: 1.8rem;
+    }
+
+    .main-content{
+        /* width: 90%; */
+        text-align: center;
     }
 }
 
