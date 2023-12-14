@@ -5,8 +5,10 @@
         grid-template-columns: 1fr 1fr !important;
         width: 98%;
     }
+}
 
+@media(max-width: 375){
     .col-con-main-content-col{
-        width: 90%;
+        width: 95% !important;
     }
 }
