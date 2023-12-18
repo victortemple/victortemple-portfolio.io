@@ -13,3 +13,5 @@ hide.style.display = 'none'
 const changeBtnColor = document.querySelector('.sidebar-menu-btn')
 changeBtnColor.style.color = '#000000'
 };
+
+

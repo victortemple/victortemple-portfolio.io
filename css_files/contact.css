@@ -1,0 +1,141 @@
+.cnt-txt h2{
+    font-size: 2.8rem;
+    text-transform: capitalize;
+}
+
+.cnt-txt p{
+    font-size: 1.2rem;
+}
+
+.cnt-txt h2 strong{
+    color: #ffa500;
+    font-weight: 800;
+}
+
+.cnt-txt{
+    margin-bottom: 3.2rem;
+}
+
+.overlay-details{
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    backdrop-filter: blur(15px);
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.ovr-link{
+    width: 20%;
+    margin: 31rem auto;
+}
+
+.ovr-link a:link,
+.ovr-link a:visited{
+    transition: 0.5s;
+    text-align: center;
+    font-size: 2.4rem;
+    color: #ffa600bd;
+}
+
+.ovr-link a:hover,
+.ovr-link a:active{
+    color: #ffa500;
+}
+
+.ovr-icon{
+    font-size: 6.8rem !important;
+    text-align: right;
+    margin-top: 1rem;
+    margin-left: 131rem;
+}
+
+.forgithub,
+.forwhatsapp,
+.forgmail{
+    display: none;
+}
+
+.work h3{
+    font-size: 3.2rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    color: #ffa500;
+    margin-bottom: 2.8rem;
+}
+
+.work-det{
+    display: flex;
+    gap: 2.4rem;
+}
+
+.work-icon{
+    font-size: 6.8rem;
+    transition: 0.3s;
+}
+
+.work-icon:hover{
+    color: #ffa500;
+}
+
+.s-m-icon{
+    color: #ffa500;
+    font-size: 2.8rem;
+}
+
+.socail-media{
+    display: flex;
+    gap: 1.8rem;
+    margin-top: 19.8rem;
+    margin-left: 85rem;
+    width: fit-content;
+}
+
+@media(max-width: 1024px){
+    .socail-media{
+        margin-left: 72rem;
+    }
+}
+
+@media(max-width: 425px){
+    .cnt-txt,
+    .work{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cnt-txt{
+        margin-top: 25rem;
+    }
+
+    .socail-media{
+        margin-left: 60rem;
+    }
+
+    .cnt-txt h2{
+        font-size: 4.4rem;
+    }
+
+    .cnt-txt p{
+        font-size: 1.8rem;
+        margin-bottom: 5.8rem;
+    }
+}
+
+@media(max-width: 375px){
+    .socail-media {
+        margin-left: 52rem 
+        ;
+    }
+}
+
+@media(max-width: 375px){
+    .socail-media {
+        margin-left: 42rem 
+        ;
+    }
+}
+
