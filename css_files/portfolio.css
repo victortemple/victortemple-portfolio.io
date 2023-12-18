@@ -1,0 +1,92 @@
+.port-con{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.port-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.8rem;
+    margin: 0 10rem;
+}
+
+.port-links-txt{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 700;
+    width: fit-content;
+    padding: 0.6rem;
+    cursor: pointer;
+    transition: 0.5s;    
+}
+
+.img-links{
+    display: grid;
+    grid-template-columns: 46rem 46rem;
+    gap: 1.4rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.portlinkimg{
+    border: 2px dotted #ffa500;
+    border-radius: 2.4rem;
+}
+
+.portlinkimg,
+.portlinkimg img{
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.portlinkimg img:hover{
+    transform: scale(2);
+}
+
+/* .portlinkimg::after{
+    content: 'Made By T.V.S-.Dev';
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    width: ;
+} */
+
+/* mobile responiveness */
+@media(max-width: 1024px){
+    .img-links{
+        grid-template-columns: 41rem 41rem;
+        gap: 3.2rem;
+    }
+}
+
+@media(max-width: 425px){
+    .img-links{
+        grid-template-columns: 74.6rem;
+        width: 90%;
+    }
+}
+
+@media(max-width: 375px){
+    .img-links{
+        grid-template-columns: 65.2rem !important;
+    }
+
+    .port-links{
+        margin: 0 7rem;
+    }
+}
+
+@media(max-width: 320px){
+    .img-links{
+        grid-template-columns: 56rem !important;
+    }
+}
+
+/* mobile responiveness */
