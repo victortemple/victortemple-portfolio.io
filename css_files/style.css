@@ -103,7 +103,7 @@ body{
 
     .txt{
         width: fit-content;
-        margin-top: 20rem;
+        margin-top: 55rem;
     }
     body{
         background-image: linear-gradient(to top, #ffa6006f, #00000060), url(../img/me.jpg);
@@ -115,11 +115,6 @@ body{
     .sidebar-menu-btn {
         left: 89%;
         width: fit-content;
-    }
-
-    .txt{
-        width: fit-content;
-        margin-top: 20rem;
     }
 }
 

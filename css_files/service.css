@@ -4,8 +4,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     width: 98%;
     margin: auto auto;
-    gap: 1.8rem;
-    row-gap: 4.4rem;
+    gap: 2rem;
+    row-gap: 5.8rem;
 }
 
 .main-content{
