@@ -4,8 +4,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     width: 98%;
     margin: auto auto;
-    gap: 1.8rem;
-    row-gap: 4.4rem;
+    gap: 2rem;
+    row-gap: 5.8rem;
 }
 
 .main-content{
@@ -21,6 +21,38 @@
 }
 
 .main-content p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
+@media(max-width: 425px){
+   
+    .col-con {
+        gap: 10rem !important;
+    }
+
+    .col-con-main-content-col{
+        grid-template-columns: 1fr !important;
+        width: 90%;
+        align-items: center;
+        margin-top: 11rem;
+    }
+
+    .main-content h3{
+        font-size: 2.4rem;
+    }
+
+    .main-content p{
+        font-size: 1.8rem;
+    }
+
+    .main-content{
+        /* width: 90%; */
+        text-align: center;
+    }
+}
+
+@media(max-width: 375){
+    .col-con-main-content-col{
+        width: 95% !important;
+    }
+}
